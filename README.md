@@ -11,9 +11,24 @@ git commit -m "Added large file"
 ## Installation on Ubuntu 20.04.6 LTS
 
 ```bash
-curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh ù sudo bash
 
 sudo apt-get install git-lfs
+```
+
+## Install kaggle cli
+
+Create Kaggle Account, go to Account, Create Token 
+
+
+```bash
+sudo pip install kaggle
+export KAGGLE_USERNAME=
+export KAGGLE_KEY=
+kaggle datasets list
+kaggle datasets download dgoenrique/netflix-movies-and-tv-shows
+sudo apt-get install -y zip
+zip -er netflix-movies-and-tv-shows.zip
 ```
 
 ## References
