@@ -1,9 +1,12 @@
 # large-files
 
+## Commit
+
+```bash
 git lfs track AdventureWorks2019.bak
 git add AdventureWorks2019.bak
 git commit -m "Added large file"
-
+```
 
 ## Installation on Ubuntu 20.04.6 LTS
 
